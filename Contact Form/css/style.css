@@ -1,0 +1,75 @@
+.container {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button {
+    padding: 10px;
+    background: #3498db;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    cursor: pointer;
+    background: #f9f9f9;
+  }
+
+  tbody tr:hover {
+    background: #f1f1f1;
+  }
+
+  .actions {
+    button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 5px;
+
+      &.edit {
+        background: #3498db;
+        color: black;
+      }
+
+      &.delete {
+        background: #3498db;
+        color: black;
+      }
+    }
+  }
+}
